@@ -1,0 +1,14 @@
+<edges>
+    <edge id='e0' from='n0' to='n1' priority='1' numLanes='2' speed='16.67'/>
+    <edge id='e1' from='n1' to='n2' priority='1' numLanes='2' speed='16.67'/>
+    <edge id='e2' from='n3' to='n4' priority='1' numLanes='2' speed='16.67'/>
+    <edge id='e3' from='n4' to='n5' priority='1' numLanes='2' speed='16.67'/>
+    <edge id='e4' from='n6' to='n7' priority='1' numLanes='2' speed='16.67'/>
+    <edge id='e5' from='n7' to='n8' priority='1' numLanes='2' speed='16.67'/>
+    <edge id='e6' from='n0' to='n3' priority='1' numLanes='2' speed='16.67'/>
+    <edge id='e7' from='n3' to='n6' priority='1' numLanes='2' speed='16.67'/>
+    <edge id='e8' from='n1' to='n4' priority='1' numLanes='2' speed='16.67'/>
+    <edge id='e9' from='n4' to='n7' priority='1' numLanes='2' speed='16.67'/>
+    <edge id='e10' from='n2' to='n5' priority='1' numLanes='2' speed='16.67'/>
+    <edge id='e11' from='n5' to='n8' priority='1' numLanes='2' speed='16.67'/>
+</edges>

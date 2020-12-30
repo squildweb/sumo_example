@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Wed Dec 30 09:46:55 2020 by Eclipse SUMO dfrouter Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/dfrouterConfiguration.xsd">
+
+    <input>
+        <net-file value="network.net.xml"/>
+        <detector-files value="detectors.det.xml"/>
+        <measure-files value="detectors_measure.csv"/>
+    </input>
+
+    <output>
+        <routes-output value="routes.rou.xml"/>
+        <routes-for-all value="true"/>
+        <emitters-output value="vehicles.xml"/>
+        <validation-output value="validation.xml"/>
+    </output>
+
+    <processing>
+        <revalidate-detectors value="true"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+    <route id="e0_to_e5" edges="e0 e8 e9 e5"/>
+    <route id="e0_to_e11" edges="e0 e8 e3 e11"/>
+
+</routes>

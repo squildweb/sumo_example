@@ -1,0 +1,5 @@
+<detectors>
+    <detectorDefinition id='d0' lane='e0_0' pos='0.0' type='source'/>
+    <detectorDefinition id='d1' lane='e1_0' pos='200.0' type='in-between'/>
+    <detectorDefinition id='d2' lane='e11_0' pos='1000.0' type='sink'/>
+</detectors>
