@@ -1,0 +1,37 @@
+<city>
+    <general
+        inhabitants='1000'
+        households='500'
+        childrenAgeLimit='18'
+        retirementAgeLimit='65'
+        carRate='0.58'
+        unemploymentRate='0.05'
+        footDistanceLimit='350'
+        incomingTraffic='200'
+        outgoingTraffic='50'
+    />
+    <parameters
+        carPreference='0.50'
+        meanTimePerkmInCity='360'
+        freeTimeActivityRate='0.15'
+        uniformRandomTraffic='0.20'
+        departureVariation='120'
+    />
+    <population>
+        <bracket beginAge='0' endAge='4' peopleNbr='1500'/>
+        <bracket beginAge='40' endAge='50' peopleNbr='1500'/>
+    </population>
+    <workHours>
+        <opening hour='30600' proportion='0.30'/>
+        <closing hour='43200' proportion='0.20'/>
+    </workHours>
+    <streets>
+        <street edge='e0' population='2.5' workPosition='10'/>
+    </streets>
+    <cityGates>
+        <entrance edge='e0' pos='0' incoming='1.5' outgoing='2.2'/>
+    </cityGates>
+    <scholls>
+        <scholl edge='e0' pos='25.0' beginAge='12' endAge='18' capacity='400' opening='32400' closing='64800'/>
+    </scholls>
+</city>
